@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should validate create 1`] = `
+{
+  "consignee": {
+    "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  },
+  "Users": [
+    {
+      "User_id": "CMAU1234567",
+    },
+  ],
+  "pickup_requests": [
+    {
+      "haulier": {
+        "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+      },
+      "pickup_start_datetime": 2021-01-01T00:00:00.000Z,
+      "plate_no": "SGX1234A",
+    },
+  ],
+  "shipping_line": "dhl",
+  "type": "ISOTANK",
+  "variant": "IMPORT",
+}
+`;
+
+exports[`should validate update 1`] = `
+{
+  "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  "consignee": {
+    "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  },
+  "Users": [
+    {
+      "User_id": "CMAU1234567",
+    },
+  ],
+  "pickup_requests": [
+    {
+      "haulier": {
+        "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+      },
+      "pickup_start_datetime": 2021-01-01T00:00:00.000Z,
+      "plate_no": "SGX1234A",
+    },
+  ],
+  "shipping_line": "dhl",
+  "type": "ISOTANK",
+  "variant": "IMPORT",
+}
+`;

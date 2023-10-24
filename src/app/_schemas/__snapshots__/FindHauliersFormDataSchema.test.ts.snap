@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should validate FindHauliersFormData 1`] = `
+{
+  "filter": {
+    "name": "test",
+  },
+  "limit": 30,
+  "select": [
+    "_id",
+    "name",
+  ],
+  "skip": 0,
+}
+`;

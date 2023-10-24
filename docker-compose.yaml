@@ -1,0 +1,20 @@
+version: '3'
+services:
+    mongo:
+        build: './docker'
+        environment:
+            MONGO_INITDB_USERNAME: user
+            MONGO_INITDB_PASSWORD: Sgf82jEO25
+            MONGO_INITDB_DATABASE: cd_data
+        volumes:
+            - 'mongo:/data/db'
+        ports:
+            - '27017:27017'
+        command:
+            - --bind_ip_all
+            - --replSet=rs0
+            - --port=27017
+            - --auth
+            - --keyFile=/opt/dev-keyfile.key
+volumes:
+    mongo:

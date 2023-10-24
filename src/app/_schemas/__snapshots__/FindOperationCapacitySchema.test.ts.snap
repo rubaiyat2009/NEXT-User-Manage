@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should validate FindOperationCapacity 1`] = `
+{
+  "date": 2021-01-01T00:00:00.000Z,
+  "depot_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  "time_zone": "Asia/Singapore",
+}
+`;

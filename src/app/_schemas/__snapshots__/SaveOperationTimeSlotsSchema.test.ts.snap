@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should validate empty time slot 1`] = `
+{
+  "friday": [],
+  "monday": [],
+  "saturday": [],
+  "sunday": [],
+  "thursday": [],
+  "tuesday": [],
+  "wednesday": [],
+}
+`;
+
+exports[`should validate time slot 1`] = `
+{
+  "friday": [
+    {
+      "end_time": "12:00+08",
+      "max_capacity": 1,
+      "start_time": "08:00+08",
+    },
+    {
+      "end_time": "13:00+08",
+      "max_capacity": 1,
+      "start_time": "12:00+08",
+    },
+  ],
+  "monday": [
+    {
+      "end_time": "12:00+08",
+      "max_capacity": 1,
+      "start_time": "08:00+08",
+    },
+    {
+      "end_time": "13:00+08",
+      "max_capacity": 1,
+      "start_time": "12:00+08",
+    },
+  ],
+  "saturday": [],
+  "sunday": [],
+  "thursday": [
+    {
+      "end_time": "12:00+08",
+      "max_capacity": 1,
+      "start_time": "08:00+08",
+    },
+    {
+      "end_time": "13:00+08",
+      "max_capacity": 10,
+      "start_time": "12:00+08",
+    },
+  ],
+  "tuesday": [
+    {
+      "end_time": "12:00+08",
+      "max_capacity": 1,
+      "start_time": "08:00+08",
+    },
+    {
+      "end_time": "13:00+08",
+      "max_capacity": 2,
+      "start_time": "12:00+08",
+    },
+  ],
+  "wednesday": [
+    {
+      "end_time": "12:00+08",
+      "max_capacity": 1,
+      "start_time": "08:00+08",
+    },
+    {
+      "end_time": "13:00+08",
+      "max_capacity": 3,
+      "start_time": "12:00+08",
+    },
+  ],
+}
+`;

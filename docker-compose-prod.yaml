@@ -1,0 +1,9 @@
+version: '3'
+services:
+    api:
+        restart: always
+        image: 843481845710.dkr.ecr.ap-southeast-1.amazonaws.com/User-depo:${IMAGE_TAG}
+        env_file:
+            - .env
+        ports:
+            - '3000:3000'

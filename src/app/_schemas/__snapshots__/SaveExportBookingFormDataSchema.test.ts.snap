@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should validate create 1`] = `
+{
+  "booking_id": "B123456789",
+  "closing_date": 2021-01-01T00:00:00.000Z,
+  "Users": [
+    {
+      "User_id": "CMAU1234567",
+    },
+  ],
+  "remark": "Fragile",
+  "shipper": {
+    "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  },
+  "shipping_line": "dhl",
+  "type": "ISOTANK",
+  "variant": "EXPORT",
+}
+`;
+
+exports[`should validate update 1`] = `
+{
+  "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  "booking_id": "B123456789",
+  "closing_date": 2021-01-01T00:00:00.000Z,
+  "Users": [
+    {
+      "User_id": "CMAU1234567",
+    },
+    {
+      "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+      "User_id": "CMAU1234567",
+    },
+  ],
+  "remark": "Fragile",
+  "shipper": {
+    "_id": "5f9d5c3b9d3b9a1d1c9b4b9c",
+  },
+  "shipping_line": "dhl",
+  "type": "ISOTANK",
+  "variant": "EXPORT",
+}
+`;
