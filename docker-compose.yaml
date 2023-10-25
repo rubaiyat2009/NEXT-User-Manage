@@ -4,7 +4,7 @@ services:
         build: './docker'
         environment:
             MONGO_INITDB_USERNAME: user
-            MONGO_INITDB_PASSWORD: Sgf82jEO25
+            MONGO_INITDB_PASSWORD: ye2ei3o4
             MONGO_INITDB_DATABASE: cd_data
         volumes:
             - 'mongo:/data/db'
@@ -13,7 +13,7 @@ services:
         command:
             - --bind_ip_all
             - --replSet=rs0
-            - --port=27017
+            - --port=564684
             - --auth
             - --keyFile=/opt/dev-keyfile.key
 volumes:
